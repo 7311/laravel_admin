@@ -16,16 +16,16 @@ class HomeController extends Controller
             ->title('主控台')
             ->description('Description...')
             ->breadcrumb(
-                ['text' => '首页', 'url' => '/admin'],
-                ['text' => '用户管理', 'url' => '/admin/users'],
-                ['text' => '编辑用户'])
+                ['text' => '首頁', 'url' => '/admin'],
+                ['text' => '用戶管理', 'url' => '/users'],
+                ['text' => '编辑用戶'])
             ->body('hello world')
             ->body('foo bar')
             ->row('hello world')
         ;
 
         return $content;
-        
+
         // return $content
         //     ->title('Dashboard')
         //     ->description('Description...')
