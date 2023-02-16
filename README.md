@@ -10,3 +10,7 @@ npm install<br>
 npm run dev<br>
 php artisan migrate<br>
 php artisan serve<br>
+<br>
+遇到問題<br>
+1.因為安裝了node.js jetstream是否都要啟用node.js才能使用<br>
+2.users資料庫因為address、tel不能為空值而出現錯誤<br>
