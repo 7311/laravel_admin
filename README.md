@@ -25,3 +25,7 @@ php artisan serve<br>
 1.因為安裝了node.js jetstream是否都要啟用node.js才能使用<br>
 2.users資料庫因為address、tel不能為空值而出現錯誤<br>
 <br>
+2/11<br>
+安裝laravel admin
+修改後台選單及首頁<br>
+增加後臺會員功能<>
