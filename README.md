@@ -1,6 +1,7 @@
 1.練習laravel的操作 Practise the operation of laravel.<br>
 2.練習使用laravel-admin Practise to use laravel-admin.<br>
 3.練習使用git及github<br>
+<br>
 2/20<br>
 將jetstream登入用username登入，註冊增加username<br>
 jetstream 驗證是用fortify來做所以要到這邊改設定<br>
