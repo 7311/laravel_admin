@@ -1,6 +1,8 @@
 1.練習laravel的操作 Practise the operation of laravel.<br>
 2.練習使用laravel-admin Practise to use laravel-admin.<br>
 3.練習使用git及github<br>
+4.練習jetstream會員系統<br>
+<br>
 2/23<br>
 增加商品資料庫及後台<br>
 這邊要注意的是建立順序<br>
@@ -20,7 +22,8 @@ jetstream 驗證是用fortify來做所以要到這邊改設定<br>
 2/19<br>
 今天想要把jetstream弄中文版，但還沒成功<br>
 AI說用composer require caouecs/laravel-lang但問題一堆根本安裝不起來<br>
-後來前台註冊還出現問題adress、tel欄位不能是null，所以增加了migration來修改把address跟tel改成$table->string('address')->nullable()->change();<br>
+後來前台註冊還出現問題adress、tel欄位不能是null，<br>
+所以增加了migration來修改把address跟tel改成$table->string('address')->nullable()->change();<br>
 <br>
 2/16<br>
 安裝 jetstream，指令：<br>

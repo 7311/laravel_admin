@@ -67,13 +67,18 @@ class ProductControoler extends AdminController
      */
     protected function form()
     {
-        $form = new Form(new Product());
+        $form = new Form(new Product);
 
-        $form->text('title', __('Title'));
-        $form->textarea('description', __('Description'));
-        $form->image('image', __('Image'));
-        $form->switch('on_sale', __('On sale'))->default(1);
-        $form->number('price', __('Price'));
+        $form->text('title', __('Title'))->rules('required');
+        $form->ckeditor('description', __('Description'))->rules('required');
+        $form->image('image', __('Image'))->rules('required');
+        $states = [
+            'on'  => ['value' => 1, 'text' => '是', 'color' => 'success'],
+            'off' => ['value' => 0, 'text' => '否', 'color' => 'danger'],
+        ];
+
+        $form->switch('on_sale', __('On sale'))->states($states)->default(1);
+        $form->number('price', __('Price'))->default(0)->rules('required|integer|min:0');
 
         return $form;
     }
