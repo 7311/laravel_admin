@@ -3,6 +3,12 @@
 3.練習使用git及github<br>
 4.練習jetstream會員系統<br>
 <br>
+2/26<br>
+1.增加gitigonore，/public/uploads<br>
+2.增加商品CKeditor<br>
+  composer require laravel-admin-ext/ckeditor<br>
+  php artisan vendor:publish --tag=laravel-admin-ckeditor<br>
+<br>
 2/23<br>
 增加商品資料庫及後台<br>
 這邊要注意的是建立順序<br>
