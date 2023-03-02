@@ -3,6 +3,9 @@
 3.練習使用git及github<br>
 4.練習jetstream會員系統<br>
 <br>
+3/2<br>
+新增商品前台，但出現錯誤 Target class [ProductController] does not exist.<br>
+<br>
 2/26<br>
 1.增加gitigonore，/public/uploads<br>
 2.增加商品CKeditor<br>
