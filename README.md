@@ -3,6 +3,10 @@
 3.練習使用git及github<br>
 4.練習jetstream會員系統<br>
 <br>
+3/3<br>
+解決3/2問題，在route中要打完整路徑<br>
+Route::get('/product', 'App\Http\Controllers\ProductController@index')->name('product.index');<br>
+<br>
 3/2<br>
 新增商品前台，但出現錯誤 Target class [ProductController] does not exist.<br>
 <br>
@@ -50,4 +54,4 @@ php artisan serve<br>
 2/11<br>
 安裝laravel admin
 修改後台選單及首頁<br>
-增加後臺會員功能<>
+增加後臺會員功能

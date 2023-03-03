@@ -27,4 +27,5 @@ Route::middleware([
     })->name('dashboard');
 });
 
-Route::get('/product', 'ProductController@index')->name('product.index');
+
+Route::get('/product', 'App\Http\Controllers\ProductController@index')->name('product.index');
