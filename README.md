@@ -3,6 +3,10 @@
 3.練習使用git及github<br>
 4.練習jetstream會員系統<br>
 <br>
+3/21<br>
+練習測試<br>
+php artisan test --filter=UserTest<br>
+<br>
 3/3<br>
 解決3/2問題，在route中要打完整路徑<br>
 Route::get('/product', 'App\Http\Controllers\ProductController@index')->name('product.index');<br>
