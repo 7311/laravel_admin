@@ -13,6 +13,7 @@ class ProductController extends Controller
      */
     public function index()
     {
+        // 1234
         return view('products.index');
     }
 
